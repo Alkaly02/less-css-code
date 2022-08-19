@@ -1,0 +1,16 @@
+.lc-grid {
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.lc-grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item{
+    background-color: steelblue;
+    padding: 20px;
+    border: 1px solid skyblue;
+}
