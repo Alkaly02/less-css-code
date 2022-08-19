@@ -1,3 +1,4 @@
+/* ************  GRID  ******* */
 .lc-grid {
     display: grid;
     color: white;
@@ -7,6 +8,26 @@
 .lc-grid-4{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.lc-gap-1 {
+    gap: 0.5rem;
+}
+
+.lc-gap-2 {
+    gap: 1rem;
+}
+
+.lc-gap-3 {
+    gap: 1.5rem;
+}
+
+.lc-gap-4 {
+    gap: 2rem;
+}
+
+.lc-gap-5 {
+    gap: 2.5rem;
 }
 
 .item{
